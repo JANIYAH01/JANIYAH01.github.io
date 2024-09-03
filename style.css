@@ -1,67 +1,64 @@
 body {
   background: rgb(255, 95, 95);
   color: rgb(218, 114, 114);
-  padding: 200px;
+  padding: 10px;
   font-family: fantasy;
   font-style: oblique;
-  
-  }
-  #all-contents {
-  max-width: 200px;
+}
+#all-contents {
+max-width: 800px;
   margin: auto;
-  }
-  /* navigation menu */
-  nav {
-  background: rgb(255, 196, 183);
-  margin: 900 auto;
+}
+
+/* navigation menu */
+nav {
+  background: rgb(255, 183, 167);
+ margin: 0 auto;
   display: flex;
-  padding: 19px;
-  margin-bottom: 20px;
-  border-radius: 10px;
-  }
-  h1 {
+  padding: 10px;
+}
+h1 {
   display: flex;
   align-items: center;
   color: white;
-  flex: 9776;
-  margin: 8;
-  }
-  #nav-ul {
+  flex: 1;
+  margin: 0;
+}
+#nav-ul {
   list-style-image: none;
-  }
-  .nav-li {
+}
+.nav-li {
   display: inline-block;
-  padding: 20 10px;
-  }
-  a {
+  padding: 0 10px;
+}
+a {
   text-decoration: none;
-  color: #ffebeb;
-  }
-  /* main container area beneath menu */
-  main {
+  color: #ffffff;
+}
+
+/* main container area beneath menu */
+main {
   background: rgb(243, 209, 114);
   display: flex;
-  border-radius: 10px;
-  }
-  .sidebar {
-  margin-right: px;
+}
+.sidebar {
+  margin-right: 25px;
   padding: 10px;
-  }
-  .sidebar-img {
-  width: 2px;
-  border-radius: 10px;
-  }
-  .content {
+}
+.sidebar-img {
+  width: 200px;
+}
+.content {
   flex: 1;
   padding: 15px;
-  }
-  /* portfolio styles */
-  #interests {
+}
+
+/* portfolio styles */
+#interests {
   border: 4px silver ridge;
-  border-radius: 10px;
   padding: 8px;
-  border-style: dotted;
-  }
-  h2, h3 {
+  Border-style: dotted;
+}
+h2, h3 {
   margin: 0px;
-  }
+}
