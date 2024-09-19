@@ -55,10 +55,35 @@ main {
 
 /* portfolio styles */
 #interests {
-  border: 4px silver ridge;
+  border: 4px rgb(255, 238, 238) ridge;
   padding: 8px;
   Border-style: dotted;
 }
 h2, h3 {
   margin: 0px;
+}
+/* portfolio styles */
+.content h1 {
+  color: rgb(242, 242, 242);
+}
+
+#portfolio {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#portfolio li {
+  background: #ffe4e4;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+  background: #a82f2f;
+}
+
+#portfolio a {
+  text-decoration: none;
+  color: #ff7878;
 }
