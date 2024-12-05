@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+i<!DOCTYPE html>
 <html>
 
 <head>
@@ -78,12 +78,21 @@
 			*/
 
 			function update() {
-				positionX = positionX + 10;
+				
+				positionX = 0 + 10;
 				moveBoxTo(positionX);
-				positionX = positionX + 10 + 10;
-		        moveBoxTo(positionX)
-				positionX= positionX + 10 + 10 + 10;
-				moveBoxTo(position)
+
+				positionX = 10 + 10;
+		        moveBoxTo(positionX);
+
+				positionX = 20 + 10;
+				moveBoxTo(positionX);
+
+				positionX = 30 + 10;
+				moveBoxTo(positionX);
+				
+			
+ 
 			}
 		
         	
@@ -94,8 +103,10 @@
 			*/
 
 			function handleBoxClick() {
-				handleBoxClick(1);
+				positionX = 0;
+				changeBoxText(1)
 			};
+		
 
 
 
